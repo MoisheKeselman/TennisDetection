@@ -17,6 +17,5 @@ Currently, the methods aren't working perfectly, but the algorithm is able to pi
 ![ball candidates](./pictures/ball_detections.png)
 
 The code in [Model Training.ipynb](./Model%20Training.ipynb) trains a small CNN to classify ball candidate images. 
-The model is trained on images generated from [Negative Data Collection.ipynb](Negative%20Data%20Collection.ipynb) 
-and [Positive Data Collection.ipynb](Positive%20Data%20Collection.ipynb). 
+The model is trained on images generated from [Positive Data Collection.ipynb](Positive%20Data%20Collection.ipynb) and [Negative Data Collection.ipynb](Negative%20Data%20Collection.ipynb). 
 The code in the data collection notebooks cuts small ball and non-ball images (respectively) out of videos, augments them (color, size, shape), and stores them in CSV files. 
